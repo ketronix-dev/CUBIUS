@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
     public float speed;
     void Update()
     {
-        if (Player.transform.position.x <= this.transform.position.x - 5)
+        if (Player.transform.position.x <= this.transform.position.x - 8)
         {
             this.transform.Translate(-speed * Time.deltaTime, 0, 0);
         }
