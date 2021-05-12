@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc21839e185d78b43b5edbd4c65f7845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  touch: {fileID: 0}
+  touch: {fileID: 2035847686}
 --- !u!54 &433647860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2559,17 +2559,17 @@ PrefabInstance:
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 25.40677
+      value: 13.62184
       objectReference: {fileID: 0}
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 25.40677
+      value: 13.62184
       objectReference: {fileID: 0}
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 25.40677
+      value: 13.62184
       objectReference: {fileID: 0}
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
@@ -5243,7 +5243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.12156863}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

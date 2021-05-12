@@ -33,4 +33,3 @@ public class TuchPad : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, ID
         return direction;
     }
 }
-
