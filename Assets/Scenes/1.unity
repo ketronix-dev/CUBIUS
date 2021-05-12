@@ -1349,6 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc21839e185d78b43b5edbd4c65f7845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  touch: {fileID: 0}
 --- !u!54 &433647860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5202,6 +5203,7 @@ GameObject:
   - component: {fileID: 2035847683}
   - component: {fileID: 2035847685}
   - component: {fileID: 2035847684}
+  - component: {fileID: 2035847686}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -5265,6 +5267,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035847682}
   m_CullTransparentMesh: 0
+--- !u!114 &2035847686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035847682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ec755839ab98d48ac4f4e8ef09a51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2039916854 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3546f193a8734a24a8423cd77481f373,

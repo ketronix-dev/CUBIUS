@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
     }*/
     void Update()
     {
-    
-            this.transform.Translate(0, speed * Time.deltaTime, 0);
+        Vector2 direction = touch.GetDir();
+            this.transform.Translate(0, direction.y, 0);
     }
 }
