@@ -4,11 +4,10 @@ public class Movement : MonoBehaviour
 {
     private float speed;
     private bool selected;
+
+    public TuchPad touch;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   /*
     public void Left()
     {
         if (selected != true)
@@ -32,16 +31,10 @@ public class Movement : MonoBehaviour
     public void UnRight()
     {
         selected = false;
-    }
+    }*/
     void Update()
     {
-        if (selected == true)
-        {
+    
             this.transform.Translate(0, speed * Time.deltaTime, 0);
-        }
-        else
-        {
-            speed = 0;
-        }
     }
 }
