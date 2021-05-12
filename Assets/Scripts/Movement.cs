@@ -9,6 +9,6 @@ public class Movement : MonoBehaviour
     void Update()
     {
         Vector2 direction = touch.GetDir();
-            this.transform.Translate(0, ((direction.x * Time.deltaTime)*-4), 0);
+            this.transform.Translate(0, ((direction.x * Time.deltaTime)*-3), 0);
     }
 }

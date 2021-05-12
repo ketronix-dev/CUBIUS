@@ -2559,17 +2559,17 @@ PrefabInstance:
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 13.62184
+      value: 17.630108
       objectReference: {fileID: 0}
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 13.62184
+      value: 17.630108
       objectReference: {fileID: 0}
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 13.62184
+      value: 17.630108
       objectReference: {fileID: 0}
     - target: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
         type: 3}
@@ -3808,8 +3808,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.15686275, g: 0.17254902, b: 0.89019614, a: 1}
-  m_Intensity: 10
-  m_Range: 3
+  m_Intensity: 5.09
+  m_Range: 0.79
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
