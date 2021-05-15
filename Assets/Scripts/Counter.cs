@@ -8,7 +8,7 @@ public class Counter : MonoBehaviour
     public Text ScoreText;
 	public GameObject Player;
     [HideInInspector]
-	public float score;
+	public static int score;
     // Start is called before the first frame update
     void Start()
     {

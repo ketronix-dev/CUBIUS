@@ -6,6 +6,11 @@ public class Movement : MonoBehaviour
     private bool selected;
 
     public TuchPad touch;
+
+    private void Awake()
+    {
+        Time.timeScale = 1;
+    }
     void Update()
     {
         Vector2 direction = touch.GetDir();
