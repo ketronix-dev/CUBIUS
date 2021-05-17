@@ -2362,7 +2362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuRestart: {fileID: 1428017913}
-  EndScores: {fileID: 351920332}
+  MaxScores: {fileID: 351920332}
   CurScore: {fileID: 206530092}
   hide1: {fileID: 1597029975}
   hide2: {fileID: 1216928976}
