@@ -26,14 +26,15 @@ public class ChunkPlacer : MonoBehaviour
     }
     private void Spawn()
     {
-        Chunk newChunk = Instantiate(ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)]);
+        Chunk newChunk = ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)];
+        newChunk.gameObject.SetActive(true);
         newChunk.transform.position = spawnedCnunks[spawnedCnunks.Count - 1].End.position;
         spawnedCnunks.Add(newChunk);
 
         if (spawnedCnunks.Count >= 8)
         {
-            Destroy(spawnedCnunks[0].gameObject);
-            Destroy(StartObjects);
+            spawnedCnunks[0].gameObject.SetActive(false);
+            StartObjects.SetActive(false);
             spawnedCnunks.RemoveAt(0);
         }
     }
