@@ -2301,6 +2301,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  MenuRestart: {fileID: 1428017913}
+  MaxScores: {fileID: 351920332}
+  CurScore: {fileID: 206530092}
+  hide1: {fileID: 1597029975}
+  hide2: {fileID: 1216928976}
 --- !u!4 &433647858 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8890076386543106118, guid: d19f3632c8f22364295fa9073fd6acca,
@@ -8903,7 +8908,7 @@ MonoBehaviour:
   Player: {fileID: 433647858}
   StartObjects: {fileID: 2139201318}
   ChunkPrefabs:
-  - {fileID: 4660910875133143019}
+  - {fileID: 681185924825875204, guid: c9726d143df05904d9c6fe9aca2692d6, type: 3}
   - {fileID: 5092050064457297084, guid: cce96dd05454c204495a099fb96a2a70, type: 3}
   - {fileID: 653850159711417475, guid: 7cb9810e92bbc0540abcbf2dbd20579c, type: 3}
   - {fileID: 6587369063714472321, guid: b2a0746d6f624eb4484ead73cf8d9b08, type: 3}

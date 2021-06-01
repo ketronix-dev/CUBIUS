@@ -26,8 +26,7 @@ public class ChunkPlacer : MonoBehaviour
     }
     private void Spawn()
     {
-        Chunk newChunk = ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)];
-        newChunk.gameObject.SetActive(true);
+        Chunk newChunk = Instantiate(ChunkPrefabs[Random.Range(0, ChunkPrefabs.Length)]);
         newChunk.transform.position = spawnedCnunks[spawnedCnunks.Count - 1].End.position;
         spawnedCnunks.Add(newChunk);
 
