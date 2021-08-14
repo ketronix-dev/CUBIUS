@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public GameObject Player;
-    public float speed;
+    [SerializeField] private GameObject Player;
+    [SerializeField] private float speed;
     void Update()
     {
         if (Player.transform.position.x <= this.transform.position.x - 8)

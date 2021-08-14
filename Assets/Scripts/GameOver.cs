@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
-    public GameObject MenuRestart;
-    public Text MaxScores;
-    public Text CurScore;
-    public GameObject hide1;
-    public GameObject hide2;
+    [SerializeField] private GameObject MenuRestart;
+    [SerializeField] private Text MaxScores;
+    [SerializeField] private Text CurScore;
+    [SerializeField] private GameObject hide1;
+    [SerializeField] private GameObject hide2;
 
     public void OnTriggerEnter(Collider other)
     {

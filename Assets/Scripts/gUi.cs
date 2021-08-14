@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class gUi : MonoBehaviour
 {
+    private AudioSource Audio;
+    private void Start() {
+        Audio = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioSource>();
+    }
     public void Restart()
     {
         SceneManager.LoadScene(1);
@@ -16,5 +20,6 @@ public class gUi : MonoBehaviour
     public void Menu()
     {
         SceneManager.LoadScene(0);
+        Destroy(Audio.gameObject);
     }
 }

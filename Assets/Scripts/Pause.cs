@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class Pause : MonoBehaviour
 {
     private bool show = false;
-    public GameObject PauseObj;
-    public Text button;
+    [SerializeField] private GameObject PauseObj;
+    [SerializeField] private Text button;
     public void ShowAndUnShow()
     {
         if (show != true)

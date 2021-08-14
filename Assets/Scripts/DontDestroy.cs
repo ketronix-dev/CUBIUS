@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioBackground : MonoBehaviour
+public class DontDestroy : MonoBehaviour
 {
     void Awake()
     {

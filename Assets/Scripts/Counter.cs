@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
-    public Text ScoreText;
-	public GameObject Player;
+    [SerializeField] private Text ScoreText;
+	[SerializeField] private GameObject Player;
     [HideInInspector]
 	public static int score;
     // Start is called before the first frame update

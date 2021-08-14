@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class RunController : MonoBehaviour
 {
-    public float speed;
+    [SerializeField] private float speed;
 
-    public GameObject MenuRestart;
-    public Text MaxScores;
-    public Text CurScore;
-    public GameObject hide1;
-    public GameObject hide2;
+    [SerializeField] private GameObject MenuRestart;
+    [SerializeField] private Text MaxScores;
+    [SerializeField] private Text CurScore;
+    [SerializeField] private GameObject hide1;
+    [SerializeField] private GameObject hide2;
     void Update()
     {
         if (this.transform.position.y <= -1f)
